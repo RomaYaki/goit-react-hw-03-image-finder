@@ -28,7 +28,7 @@ class App extends React.Component {
     if (prevName !== nextName) {
       this.fetchImages();
     }
-    if (this.state.images.length > 10) {
+    if (this.state.images.length > 12) {
       window.scrollTo({
         top: document.documentElement.scrollHeight,
         behavior: 'smooth',
